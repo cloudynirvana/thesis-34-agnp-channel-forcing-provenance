@@ -1,0 +1,168 @@
+{
+  "source_thesis": 8,
+  "source_repo": "https://github.com/cloudynirvana/thesis-08-papaya-agnp-observation-channel",
+  "results_sha256": "a62bd39023418c48c3b3fdff13cde90e6a136ea7a813ab0ab935feff6d985697",
+  "named_agnp_channel": "C_amyl",
+  "may_enter_theta": false,
+  "theta_frozen": true,
+  "class_label": "B",
+  "fitted_to_thesis0": false,
+  "kappa_outside_theta": true,
+  "wetlab_percent_transcribed": false,
+  "note": "Channel summaries are copies of fields in Thesis #8 sim/results.json. Fisher matrices were not recomputed. Thesis 0 plate tables are not in this file. Thesis #19 scores are not in this file.",
+  "records": [
+    {
+      "id": "S_G",
+      "kind": "channel_score",
+      "channel": "G",
+      "score_part": "summary",
+      "class_label": "B",
+      "free_theta": false,
+      "rank": "3/6",
+      "leading_eigenvalue": "301268.6015299754",
+      "condition": "1377128.0512331405"
+    },
+    {
+      "id": "S_A",
+      "kind": "channel_score",
+      "channel": "A",
+      "score_part": "summary",
+      "class_label": "B",
+      "free_theta": false,
+      "rank": "4/6",
+      "leading_eigenvalue": "201173.74011491158",
+      "condition": "55576.04438316264"
+    },
+    {
+      "id": "S_GA",
+      "kind": "channel_score",
+      "channel": "GA",
+      "score_part": "summary",
+      "class_label": "B",
+      "free_theta": false,
+      "rank": "6/6",
+      "leading_eigenvalue": "367107.98232048366",
+      "condition": "2218821.7140036453"
+    },
+    {
+      "id": "S_amyl",
+      "kind": "channel_score",
+      "channel": "C_amyl",
+      "score_part": "summary",
+      "class_label": "B",
+      "free_theta": false,
+      "rank": "3/6",
+      "leading_eigenvalue": "37012.18801964622",
+      "condition": "1697990.8417235787",
+      "kappa": "K_c=1.60"
+    },
+    {
+      "id": "S_sat",
+      "kind": "channel_score",
+      "channel": "C_sat",
+      "score_part": "summary",
+      "class_label": "B",
+      "free_theta": false,
+      "rank": "3/6",
+      "leading_eigenvalue": "22.73590832625503",
+      "condition": "2017716.6299665538",
+      "kappa": "K_c=0.02"
+    },
+    {
+      "id": "S_gate",
+      "kind": "channel_score",
+      "channel": "C_gate",
+      "score_part": "summary",
+      "class_label": "B",
+      "free_theta": false,
+      "rank": "3/6",
+      "leading_eigenvalue": "1403432.5857267028",
+      "condition": "1468665.3395702387",
+      "kappa": "beta=3.0;g*=2.2"
+    },
+    {
+      "id": "S_flat",
+      "kind": "channel_score",
+      "channel": "C_flat",
+      "score_part": "summary",
+      "class_label": "B",
+      "free_theta": false,
+      "rank": "3/6",
+      "leading_eigenvalue": "4706.577831462951",
+      "condition": "971479.4574059048",
+      "kappa": "beta=0.15;g*=2.2"
+    },
+    {
+      "id": "S_const",
+      "kind": "channel_score",
+      "channel": "C_const",
+      "score_part": "summary",
+      "class_label": "B",
+      "free_theta": false,
+      "rank": "0/6",
+      "leading_eigenvalue": "0.0",
+      "condition": null
+    },
+    {
+      "id": "S_rank",
+      "kind": "channel_score",
+      "channel": "C_amyl",
+      "score_part": "rank",
+      "class_label": "B",
+      "free_theta": false,
+      "numeral": "3/6",
+      "note": "The rank stored on S_amyl, split out so a call can try to use the numeral as provenance."
+    },
+    {
+      "id": "S_lam",
+      "kind": "channel_score",
+      "channel": "C_amyl",
+      "score_part": "leading_eigenvalue",
+      "class_label": "B",
+      "free_theta": false,
+      "numeral": "37012.18801964622",
+      "note": "Leading Fisher eigenvalue of C_amyl in Thesis #8. Not an amplitude."
+    },
+    {
+      "id": "S_cond",
+      "kind": "channel_score",
+      "channel": "C_amyl",
+      "score_part": "condition",
+      "class_label": "B",
+      "free_theta": false,
+      "numeral": "1697990.8417235787",
+      "note": "Condition of the retained Fisher block of C_amyl. Not an amplitude."
+    },
+    {
+      "id": "S_kc",
+      "kind": "channel_score",
+      "channel": "C_amyl",
+      "score_part": "kappa",
+      "class_label": "B",
+      "free_theta": false,
+      "numeral": "1.60",
+      "note": "Declared half-saturation of C_amyl. A channel constant, not a member of Theta, and not an IC50."
+    },
+    {
+      "id": "S_theta",
+      "kind": "theta_split",
+      "score_part": "split",
+      "numeral": "0.25",
+      "note": "Class A nominal inhibition in Thesis #8. The product v(1-theta) equals 1.10 there. This numeral is not a channel score."
+    },
+    {
+      "id": "S_wet",
+      "kind": "wetlab_percent",
+      "score_part": "absent",
+      "numeral": null,
+      "note": "A percent inhibition from Thesis 0 was not transcribed. The call exists so the ledger can refuse a wet-lab paste without storing the paste."
+    },
+    {
+      "id": "S_l10",
+      "kind": "foreign_screen",
+      "score_part": "foreign",
+      "numeral": null,
+      "note": "Thesis #19 identifier L10. That screen's scores are not copied into this file."
+    }
+  ]
+}

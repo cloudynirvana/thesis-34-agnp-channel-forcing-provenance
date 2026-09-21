@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you cite this computational research thesis, please use the metadata below. No DOI is minted here; do not invent one."
+type: thesis
+title: "Named AgNP observation-channel scores as forcing provenance under evidence gates"
+authors:
+  - family-names: Ogbonna
+    given-names: Kelechi Emeka
+    email: kelechiogbonna300@gmail.com
+    alias: cloudynirvana
+abstract: >-
+  When a named papaya AgNP observation channel produces scores that are
+  barred from Theta, which of those scores, if any, may be admitted only as
+  provenance of a protocol-constant tip-ODE forcing without gate bypass or
+  soft-prior leakage? One record may. It is the class-B summary of C_amyl
+  from Thesis #8, admitted once as provenance of u_tip = 1. The rank, the
+  leading eigenvalue, the condition, and K_c are not copied. Companion
+  channels are refused. The SHA-256 of kinetic Theta remains the Thesis #19
+  digest 1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8.
+  Not a dose. Not a medical device. No document DOI.
+keywords:
+  - silver nanoparticle
+  - observation channel
+  - alpha-amylase map
+  - forcing provenance
+  - evidence gate
+  - protocol-constant input
+  - kinetic digest
+  - research-only
+license: MIT
+date-released: "2026-09-21"
+url: "https://github.com/cloudynirvana/thesis-34-agnp-channel-forcing-provenance"
+repository-code: "https://github.com/cloudynirvana/thesis-34-agnp-channel-forcing-provenance"
+preferred-citation:
+  type: thesis
+  title: "Named AgNP observation-channel scores as forcing provenance under evidence gates"
+  authors:
+    - family-names: Ogbonna
+      given-names: Kelechi Emeka
+  year: 2026
+  month: 9
+  url: "https://github.com/cloudynirvana/thesis-34-agnp-channel-forcing-provenance"
+  notes: "Thesis #34. Depends on Thesis #8 and Thesis #19. Computational research. AgNP admission ledger, not a clinical result. No document DOI. Not a dose."

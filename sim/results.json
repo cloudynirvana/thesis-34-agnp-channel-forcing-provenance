@@ -1,0 +1,767 @@
+{
+  "rng_draws": 0,
+  "candidate_sha256": "6d7bb8b9d99302dd8d90361bc3d95f792b19ac0ddf99445693557dc97445ca5e",
+  "t08_results_sha256_transcribed": "a62bd39023418c48c3b3fdff13cde90e6a136ea7a813ab0ab935feff6d985697",
+  "t19_theta_sha256_control": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+  "named_agnp_channel": "C_amyl",
+  "theta": {
+    "d0": "0.15",
+    "d_u": "0.25",
+    "g": "0.20",
+    "k_glyc": "0.60",
+    "s": "0.40",
+    "u_in": "0.50"
+  },
+  "theta_sha256": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+  "theta_sha256_after_all_calls": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+  "theta_unchanged": true,
+  "forcing_symbol": "u_tip",
+  "forcing_null_sha256": "aff2ce6750d80780cea53b3b832459fba26ddff2267c33d3a1f46de1ae77a53f",
+  "forcing_admitted_sha256": "4a9b382f6976015102a639acb65bb9a559871ff5e47a611147db9a4c47e0a6cb",
+  "admitted_forcing": {
+    "amplitude_rule": "protocol_constant",
+    "pieces": [
+      {
+        "t0": "0",
+        "t1": "40",
+        "value": "1"
+      }
+    ],
+    "provenance": {
+      "channel": "C_amyl",
+      "class_label": "B",
+      "named_agnp_channel": true,
+      "results_sha256": "a62bd39023418c48c3b3fdff13cde90e6a136ea7a813ab0ab935feff6d985697",
+      "score_copied": false,
+      "score_part": "summary"
+    },
+    "symbol": "u_tip"
+  },
+  "n_calls": 23,
+  "n_refused": 22,
+  "n_admitted": 1,
+  "eligible_ids": [
+    "S_amyl"
+  ],
+  "eligibility": [
+    {
+      "id": "S_G",
+      "kind": "channel_score",
+      "channel": "G",
+      "score_part": "summary",
+      "rank": "3/6",
+      "eligible": false,
+      "reasons": [
+        "not_named_agnp_channel"
+      ]
+    },
+    {
+      "id": "S_A",
+      "kind": "channel_score",
+      "channel": "A",
+      "score_part": "summary",
+      "rank": "4/6",
+      "eligible": false,
+      "reasons": [
+        "not_named_agnp_channel"
+      ]
+    },
+    {
+      "id": "S_GA",
+      "kind": "channel_score",
+      "channel": "GA",
+      "score_part": "summary",
+      "rank": "6/6",
+      "eligible": false,
+      "reasons": [
+        "not_named_agnp_channel"
+      ]
+    },
+    {
+      "id": "S_amyl",
+      "kind": "channel_score",
+      "channel": "C_amyl",
+      "score_part": "summary",
+      "rank": "3/6",
+      "eligible": true,
+      "reasons": []
+    },
+    {
+      "id": "S_sat",
+      "kind": "channel_score",
+      "channel": "C_sat",
+      "score_part": "summary",
+      "rank": "3/6",
+      "eligible": false,
+      "reasons": [
+        "not_named_agnp_channel"
+      ]
+    },
+    {
+      "id": "S_gate",
+      "kind": "channel_score",
+      "channel": "C_gate",
+      "score_part": "summary",
+      "rank": "3/6",
+      "eligible": false,
+      "reasons": [
+        "not_named_agnp_channel"
+      ]
+    },
+    {
+      "id": "S_flat",
+      "kind": "channel_score",
+      "channel": "C_flat",
+      "score_part": "summary",
+      "rank": "3/6",
+      "eligible": false,
+      "reasons": [
+        "not_named_agnp_channel"
+      ]
+    },
+    {
+      "id": "S_const",
+      "kind": "channel_score",
+      "channel": "C_const",
+      "score_part": "summary",
+      "rank": "0/6",
+      "eligible": false,
+      "reasons": [
+        "not_named_agnp_channel"
+      ]
+    },
+    {
+      "id": "S_rank",
+      "kind": "channel_score",
+      "channel": "C_amyl",
+      "score_part": "rank",
+      "rank": null,
+      "eligible": false,
+      "reasons": [
+        "numeral_not_provenance"
+      ]
+    },
+    {
+      "id": "S_lam",
+      "kind": "channel_score",
+      "channel": "C_amyl",
+      "score_part": "leading_eigenvalue",
+      "rank": null,
+      "eligible": false,
+      "reasons": [
+        "numeral_not_provenance"
+      ]
+    },
+    {
+      "id": "S_cond",
+      "kind": "channel_score",
+      "channel": "C_amyl",
+      "score_part": "condition",
+      "rank": null,
+      "eligible": false,
+      "reasons": [
+        "numeral_not_provenance"
+      ]
+    },
+    {
+      "id": "S_kc",
+      "kind": "channel_score",
+      "channel": "C_amyl",
+      "score_part": "kappa",
+      "rank": null,
+      "eligible": false,
+      "reasons": [
+        "numeral_not_provenance"
+      ]
+    },
+    {
+      "id": "S_theta",
+      "kind": "theta_split",
+      "channel": null,
+      "score_part": "split",
+      "rank": null,
+      "eligible": false,
+      "reasons": [
+        "not_a_channel_score"
+      ]
+    },
+    {
+      "id": "S_wet",
+      "kind": "wetlab_percent",
+      "channel": null,
+      "score_part": "absent",
+      "rank": null,
+      "eligible": false,
+      "reasons": [
+        "not_a_channel_score"
+      ]
+    },
+    {
+      "id": "S_l10",
+      "kind": "foreign_screen",
+      "channel": null,
+      "score_part": "foreign",
+      "rank": null,
+      "eligible": false,
+      "reasons": [
+        "not_a_channel_score"
+      ]
+    }
+  ],
+  "calls": [
+    {
+      "id": "R01",
+      "kind": "theta_split",
+      "record_id": "S_theta",
+      "destination": "d0",
+      "amplitude_rule": "copy_score",
+      "status": "refused",
+      "reasons": [
+        "not_a_channel_score",
+        "theta_destination",
+        "amplitude_rule"
+      ],
+      "theta_unchanged": true,
+      "note": "Class A inhibition 0.25 asked to replace d0"
+    },
+    {
+      "id": "R02",
+      "kind": "channel_score",
+      "record_id": "S_lam",
+      "destination": "u_tip",
+      "amplitude_rule": "copy_eigenvalue",
+      "status": "refused",
+      "reasons": [
+        "numeral_not_provenance",
+        "amplitude_rule"
+      ],
+      "theta_unchanged": true,
+      "note": "C_amyl leading eigenvalue asked to be the amplitude"
+    },
+    {
+      "id": "R03",
+      "kind": "channel_score",
+      "record_id": "S_rank",
+      "destination": "d0",
+      "amplitude_rule": "soft_prior",
+      "status": "refused",
+      "reasons": [
+        "soft_prior",
+        "theta_destination",
+        "numeral_not_provenance",
+        "amplitude_rule"
+      ],
+      "theta_unchanged": true,
+      "note": "Gaussian prior on d0 shifted by the C_amyl rank"
+    },
+    {
+      "id": "R04",
+      "kind": "channel_score",
+      "record_id": "S_amyl",
+      "destination": "u_tip",
+      "amplitude_rule": "copy_eigenvalue",
+      "status": "refused",
+      "reasons": [
+        "amplitude_rule"
+      ],
+      "theta_unchanged": true,
+      "note": "The eligible summary, with its eigenvalue copied into u_tip"
+    },
+    {
+      "id": "R05",
+      "kind": "channel_score",
+      "record_id": "S_kc",
+      "destination": "u_tip",
+      "amplitude_rule": "copy_kappa",
+      "status": "refused",
+      "reasons": [
+        "numeral_not_provenance",
+        "amplitude_rule"
+      ],
+      "theta_unchanged": true,
+      "note": "Declared K_c of C_amyl asked to be the amplitude"
+    },
+    {
+      "id": "R06",
+      "kind": "channel_score",
+      "record_id": "S_const",
+      "destination": "u_tip",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "not_named_agnp_channel"
+      ],
+      "theta_unchanged": true,
+      "note": "Constant channel asked to authorize the protocol schedule"
+    },
+    {
+      "id": "R07",
+      "kind": "channel_score",
+      "record_id": "S_gate",
+      "destination": "u_tip",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "not_named_agnp_channel"
+      ],
+      "theta_unchanged": true,
+      "note": "Gate channel, not the named AgNP channel"
+    },
+    {
+      "id": "R08",
+      "kind": "wetlab_percent",
+      "record_id": "S_wet",
+      "destination": "u_tip",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "not_a_channel_score"
+      ],
+      "theta_unchanged": true,
+      "note": "A wet-lab percent that this file does not contain"
+    },
+    {
+      "id": "R09",
+      "kind": "foreign_screen",
+      "record_id": "S_l10",
+      "destination": "u_phyto",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "not_a_channel_score",
+        "symbol"
+      ],
+      "theta_unchanged": true,
+      "note": "Thesis #19 row L10 aimed at Thesis #19's symbol"
+    },
+    {
+      "id": "R10",
+      "kind": "channel_score",
+      "record_id": "S_amyl",
+      "destination": "d0",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "theta_destination"
+      ],
+      "theta_unchanged": true,
+      "note": "Legal-looking summary aimed at a kinetic name"
+    },
+    {
+      "id": "R11",
+      "kind": "channel_score",
+      "record_id": "S_amyl",
+      "destination": "u_phyto",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "symbol"
+      ],
+      "theta_unchanged": true,
+      "note": "Legal summary aimed at a symbol this ledger does not declare"
+    },
+    {
+      "id": "R12",
+      "kind": "channel_score",
+      "record_id": "S_amyl",
+      "destination": "N_ROS",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "symbol"
+      ],
+      "theta_unchanged": true,
+      "note": "Legal summary aimed at the input name of Thesis #7"
+    },
+    {
+      "id": "R13",
+      "kind": "channel_score",
+      "record_id": "S_amyl",
+      "destination": "u_tip",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "may_enter_theta"
+      ],
+      "theta_unchanged": true,
+      "note": "may_enter_theta flipped"
+    },
+    {
+      "id": "R14",
+      "kind": "channel_score",
+      "record_id": "S_amyl",
+      "destination": "u_tip",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "class_A"
+      ],
+      "theta_unchanged": true,
+      "note": "Class A label written over the frozen class B record"
+    },
+    {
+      "id": "R15",
+      "kind": "channel_score",
+      "record_id": "S_amyl",
+      "destination": "u_tip",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "source_pin"
+      ],
+      "theta_unchanged": true,
+      "note": "One hex character of the Thesis #8 results pin flipped"
+    },
+    {
+      "id": "R16",
+      "kind": "channel_score",
+      "record_id": "S_amyl",
+      "destination": "u_tip",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "wetlab_fit"
+      ],
+      "theta_unchanged": true,
+      "note": "Flag claiming the channel was fitted to Thesis 0"
+    },
+    {
+      "id": "R17",
+      "kind": "channel_score",
+      "record_id": "S_amyl",
+      "destination": "u_tip",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "kappa_in_theta"
+      ],
+      "theta_unchanged": true,
+      "note": "Channel constant moved into Theta by a flag"
+    },
+    {
+      "id": "R18",
+      "kind": "channel_score",
+      "record_id": "S_lam",
+      "destination": "s",
+      "amplitude_rule": "soft_weight",
+      "status": "refused",
+      "reasons": [
+        "soft_weight",
+        "theta_destination",
+        "numeral_not_provenance",
+        "amplitude_rule"
+      ],
+      "theta_unchanged": true,
+      "note": "Eigenvalue used as a weight on the ATP clearance"
+    },
+    {
+      "id": "A01",
+      "kind": "channel_score",
+      "record_id": "S_amyl",
+      "destination": "u_tip",
+      "amplitude_rule": "protocol_constant",
+      "status": "admitted",
+      "reasons": [],
+      "theta_unchanged": true,
+      "note": "Single legal admission of the C_amyl summary as provenance"
+    },
+    {
+      "id": "R19",
+      "kind": "channel_score",
+      "record_id": "S_amyl",
+      "destination": "u_tip",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "slot_occupied"
+      ],
+      "theta_unchanged": true,
+      "note": "Second write of the same legal record"
+    },
+    {
+      "id": "R20",
+      "kind": "channel_score",
+      "record_id": "S_GA",
+      "destination": "u_tip",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "not_named_agnp_channel"
+      ],
+      "theta_unchanged": true,
+      "note": "Joint channel after the slot is full"
+    },
+    {
+      "id": "R21",
+      "kind": "channel_score",
+      "record_id": "S_const",
+      "destination": "u_tip",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "channel_mismatch",
+        "not_named_agnp_channel"
+      ],
+      "theta_unchanged": true,
+      "note": "Constant channel relabelled C_amyl inside the call"
+    },
+    {
+      "id": "R22",
+      "kind": "channel_score",
+      "record_id": "S_lam",
+      "destination": "u_tip",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "part_mismatch",
+        "numeral_not_provenance"
+      ],
+      "theta_unchanged": true,
+      "note": "Eigenvalue record relabelled as a summary inside the call"
+    }
+  ],
+  "curves": {
+    "null": {
+      "u": 0.0,
+      "state_sha256": "1486bf2a2e592d568e331c236c7df808729d998357abd36fc58d9b377594244c",
+      "terminal": {
+        "G": 0.833333,
+        "R": 0.66562,
+        "A": 0.750755
+      },
+      "equilibrium": {
+        "G": 0.833333,
+        "R": 0.666667,
+        "A": 0.75
+      },
+      "equilibrium_abs_gap": {
+        "G": 2.105205e-12,
+        "R": 0.001046586,
+        "A": 0.000754731
+      },
+      "closed_form_max_abs": {
+        "G": 5.082798e-09,
+        "R": 2.778101e-09
+      },
+      "samples": {
+        "0": {
+          "G": 1.0,
+          "R": 0.2,
+          "A": 0.8
+        },
+        "5": {
+          "G": 0.841631,
+          "R": 0.46501,
+          "A": 0.917185
+        },
+        "10": {
+          "G": 0.833746,
+          "R": 0.572346,
+          "A": 0.826742
+        },
+        "20": {
+          "G": 0.833334,
+          "R": 0.645645,
+          "A": 0.765622
+        },
+        "40": {
+          "G": 0.833333,
+          "R": 0.66562,
+          "A": 0.750755
+        }
+      }
+    },
+    "admitted": {
+      "u": 1.0,
+      "state_sha256": "e5add31f87ea178b57a9e5fa754c8c3ce715c0a36ec804ee358ea5c08e99e484",
+      "terminal": {
+        "G": 0.833333,
+        "R": 0.25,
+        "A": 1.0
+      },
+      "equilibrium": {
+        "G": 0.833333,
+        "R": 0.25,
+        "A": 1.0
+      },
+      "equilibrium_abs_gap": {
+        "G": 1.21092e-12,
+        "R": 5.461691e-09,
+        "A": 3.106594e-08
+      },
+      "closed_form_max_abs": {
+        "G": 4.725188e-09,
+        "R": 2.203889e-09
+      },
+      "samples": {
+        "0": {
+          "G": 1.0,
+          "R": 0.2,
+          "A": 0.8
+        },
+        "5": {
+          "G": 0.841631,
+          "R": 0.251788,
+          "A": 1.010465
+        },
+        "10": {
+          "G": 0.833746,
+          "R": 0.250668,
+          "A": 1.002335
+        },
+        "20": {
+          "G": 0.833334,
+          "R": 0.250016,
+          "A": 1.000011
+        },
+        "40": {
+          "G": 0.833333,
+          "R": 0.25,
+          "A": 1.0
+        }
+      }
+    },
+    "kappa_copy_contrast_not_a_ledger_write": {
+      "u": 1.6,
+      "state_sha256": "6e06671250a3a7a508f2c6f5c87f23f6825292a343c5db2a759f79824de04ff7",
+      "terminal": {
+        "G": 0.833333,
+        "R": 0.181818,
+        "A": 1.057692
+      },
+      "equilibrium": {
+        "G": 0.833333,
+        "R": 0.181818,
+        "A": 1.057692
+      },
+      "equilibrium_abs_gap": {
+        "G": 8.684053e-12,
+        "R": 1.220204e-10,
+        "A": 1.331632e-08
+      },
+      "closed_form_max_abs": {
+        "G": 5.2688e-09,
+        "R": 1.684019e-09
+      },
+      "samples": {
+        "0": {
+          "G": 1.0,
+          "R": 0.2,
+          "A": 0.8
+        },
+        "5": {
+          "G": 0.841631,
+          "R": 0.188637,
+          "A": 1.048606
+        },
+        "10": {
+          "G": 0.833746,
+          "R": 0.182536,
+          "A": 1.056757
+        },
+        "20": {
+          "G": 0.833334,
+          "R": 0.181823,
+          "A": 1.057662
+        },
+        "40": {
+          "G": 0.833333,
+          "R": 0.181818,
+          "A": 1.057692
+        }
+      }
+    },
+    "affine_contrast_not_a_ledger_write": {
+      "u": 2.4841723798451874,
+      "state_sha256": "291d7af359f42bce3e5837f0009aaf956f418c4c47dda334aa3a4ac347d12268",
+      "terminal": {
+        "G": 0.833333,
+        "R": 0.129694,
+        "A": 1.106494
+      },
+      "equilibrium": {
+        "G": 0.833333,
+        "R": 0.129694,
+        "A": 1.106494
+      },
+      "equilibrium_abs_gap": {
+        "G": 1.501821e-11,
+        "R": 1.05255e-11,
+        "A": 6.017737e-09
+      },
+      "closed_form_max_abs": {
+        "G": 8.938674e-09,
+        "R": 2.104579e-09
+      },
+      "samples": {
+        "0": {
+          "G": 1.0,
+          "R": 0.2,
+          "A": 0.8
+        },
+        "5": {
+          "G": 0.841631,
+          "R": 0.134529,
+          "A": 1.088264
+        },
+        "10": {
+          "G": 0.833746,
+          "R": 0.129963,
+          "A": 1.105054
+        },
+        "20": {
+          "G": 0.833334,
+          "R": 0.129695,
+          "A": 1.106476
+        },
+        "40": {
+          "G": 0.833333,
+          "R": 0.129694,
+          "A": 1.106494
+        }
+      }
+    }
+  },
+  "max_abs_state_gap_admitted_vs_null": 0.41562,
+  "max_abs_G_gap_admitted_vs_null": 1.267722e-09,
+  "contrasts_not_written": {
+    "soft_prior": {
+      "record_id": "S_amyl",
+      "column": "log10(leading_eigenvalue)",
+      "log10_leading_eigenvalue": 4.568344759690374,
+      "prior_mean_d0": 0.2413668951938075,
+      "posterior_mean_d0": 0.19568344759690373,
+      "theta_sha256_if_written": "62a6aa857bd909d33c5f78334c554bad967ec6017cf26cda9eb73adc874786a1",
+      "written_to_ledger_theta": false,
+      "ledger_theta_sha256_after_contrast": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8"
+    },
+    "kappa_copy_amplitude": {
+      "record_id": "S_kc",
+      "numeral": "1.60",
+      "proposed_u": 1.6,
+      "written_to_ledger_forcing": false
+    },
+    "affine_amplitude": {
+      "record_id": "S_lam",
+      "map": "0.20 + 0.50 * log10(leading_eigenvalue)",
+      "proposed_u": 2.4841723798451874,
+      "written_to_ledger_forcing": false
+    }
+  },
+  "checks": {
+    "eligible_set_is_S_amyl_only": true,
+    "companion_summaries_fail_only_not_named_agnp_channel": true,
+    "c_amyl_numerals_fail_only_numeral_not_provenance": true,
+    "single_admission_A01": true,
+    "theta_digest_equals_thesis_19": true,
+    "theta_bytes_unchanged": true,
+    "refusals_before_admission_left_null_forcing": true,
+    "refusals_after_admission_left_admitted_forcing": true,
+    "numerals_absent_from_forcing_payload": true,
+    "closed_form_G_R": true,
+    "G_equilibrium_independent_of_u": true,
+    "state_digest_moves_when_forcing_is_admitted": true,
+    "soft_prior_digest_differs_and_was_not_written": true,
+    "wetlab_percent_not_transcribed": true
+  }
+}
